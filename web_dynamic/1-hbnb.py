@@ -25,7 +25,7 @@ def hbnb():
                        key=lambda amenity: amenity.name)
     places = sorted(storage.all(Place).values(),
                     key=lambda place: place.name)
-
+    
     # Generate a unique cache ID
     cache_id = uuid.uuid4()
 

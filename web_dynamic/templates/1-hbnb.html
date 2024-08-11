@@ -9,7 +9,6 @@
 		<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}?cache_id={{ cache_id }}">
 	</head>
 	<BODY>
-		<H1>States</H1>
 		<ul>
 			{% for amenity in amenities %}
 			<li>
@@ -18,5 +17,6 @@
 			</li>
 			{% endfor %}
 		</ul>
+
 	</BODY>
 </HTML>
